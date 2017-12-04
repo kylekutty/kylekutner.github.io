@@ -1,0 +1,184 @@
+.wrapper3 .arrow {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  left: 0;
+}
+.wrapper3 .arrow:before, .wrapper3 .arrow:after {
+  background-color: transparent;
+  width: 3px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  border-bottom: 12px solid gray;
+  top: 0;
+  left: 10px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+.wrapper3 .arrow:before {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+.wrapper3 .arrow:after {
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+.wrapper3.active .arrow {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transform: translate(0, -6px);
+          transform: translate(0, -6px);
+}
+.wrapper3.active .arrow:before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.wrapper3.active .arrow:after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+
+.wrapper4 .arrow2 {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  right: 0;
+}
+.wrapper4 .arrow2:before, .wrapper4 .arrow2:after {
+  background-color: transparent;
+  width: 3px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  border-bottom: 12px solid black;
+  top: 0;
+  left: 10px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+.wrapper4 .arrow2:before {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+.wrapper4 .arrow2:after {
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+.wrapper4.active .arrow2 {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transform: translate(0, -6px);
+          transform: translate(0, -6px);
+}
+.wrapper4.active .arrow2:before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.wrapper4.active .arrow2:after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.arrow {
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  position: relative;
+  bottom: 0px;
+  left: 10px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  margin-top: 2px;
+  text-align: left;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  float: right;
+}
+.arrow:before, .arrow:after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 3px;
+  background-color: #000;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.arrow:after {
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  top: -5px;
+  left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: #333;
+    overflow-y: scroll;
+    transition: 0.5s;
+    padding-bottom: 0px;
+    padding-top: 1em;
+
+}
+
+
+.sidenav2 {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    background-color: #333;
+    overflow-y: scroll;
+    transition: 0.5s;
+    padding-bottom: 0px;
+    padding-top: 1em;
+}
+
+
+
+#main {
+    transition: margin-bottom .5s;
+    position: absolute;
+    bottom: 25px;
+    margin-bottom: 0px;
+    margin-left: -1em;
+    left: 50%;
+    z-index: 4;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+  .sidenav2 {padding-top: 15px;}
+  .sidenav2 a {font-size: 18px;}
+}
