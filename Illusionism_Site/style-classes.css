@@ -1,0 +1,9 @@
+* { box-sizing: border-box; } 
+
+body {
+    background-color: #20B2AA;
+}
+
+div {
+    display: block;
+}

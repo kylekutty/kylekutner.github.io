@@ -1,0 +1,352 @@
+/** MOBILE**/
+
+        * { box-sizing: border-box; } 
+
+body {
+    background-color: #333;
+
+}
+
+div {
+    display: block;
+}
+
+.illusionism-position {
+    position: absolute;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 3%;
+    top: 0px;
+    bottom: 0px;
+
+}
+
+.illusionism {
+    transform: rotate(270deg);
+    font-size: 4em;
+    font-family: Merriweather;
+    font-weight: 1000;
+}
+
+
+
+.nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+        
+
+.bracket {
+    display: none;
+}
+
+
+        
+        
+        .theme {
+            height: 8em;
+            position: relative;
+        }
+
+        .themeName {
+            width: 8em;
+            position: absolute;
+            text-align: left;
+            right: 0;
+
+        }
+        
+        .group{
+            margin-right: 150px;
+            display: block;
+    
+        }
+
+        .title {
+            display: none;
+        }
+
+        .class {
+            height: 2.3em;
+            display: block;
+            float:right;
+        }
+
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            display: inline;
+            float: right;
+            font-family: 'Libre Baskerville', serif;
+            font-size: .7em;
+            letter-spacing: .1em;
+            font-weight: 100;
+            line-height: 1em;
+            -webkit-transition: letter-spacing .2s;
+            transition: letter-spacing .2s;
+            color: #fff;
+
+        }
+
+        h2 {  
+            color: #666;
+            padding-right: .5em;
+            display: inline;
+            float: right;
+            font-family: 'Lato', sans-serif;
+            font-style: italic;
+            font-size: .5em;
+        }
+
+        h3 {   
+            font-family: 'Libre Baskerville', serif;
+            font-size: .7em;
+            font-style: italic;
+
+        }
+
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border-top: 3px solid;
+            background-color: white;
+        }
+
+        header nav ul li {
+            border-bottom: 1px solid;
+            padding: 1em;
+        }
+
+        /** columns **/
+
+        [class*='col-'] {
+            float: left;
+            padding-left: .75em;
+            padding-right: .75em;
+        }
+
+        .col-1,
+        .col-2,
+        .col-3,
+        .col-4,
+        .col-5,
+        .col-6,
+        .col-7,
+        .col-8,
+        .col-9,
+        .col-10,
+        .col-11,
+        .col-12 { width: 100%;}
+
+        body {
+            margin: 0px;
+
+        }
+
+/** TABLET **/
+
+@media (min-width: 600px) {
+
+    
+    
+    
+
+        h1:hover {
+            letter-spacing: .2em;
+            font-weight: 900;
+            -webkit-transition: letterspacing .1s;
+            transition: letter-spacing .1s;
+
+        }
+    
+ 
+    
+        span {
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 30px;
+            display: inline-block;
+        }
+
+        span.bracket-1 {
+            height: 1.6em;
+        }
+
+        span.bracket-2 {
+            height: 2.3em;
+        }
+
+        span.bracket-3 {
+            height: 1.6em;
+        }
+
+        span.bracket-4 {
+            height: 3em;
+        }
+
+
+        .surface-illusion {
+            margin-top: 2.6em;
+        }
+
+        .volume-presence {
+            margin-top: 3.7em;
+
+        }
+
+        .principles-space {
+            margin-top: 2.6em;
+
+        }
+
+        .psychological-realism {
+            margin-top: 4.2em;
+
+        }
+
+        .title {
+            display: block;
+        }
+
+
+        .bracket {
+            display: block;
+            position: absolute;
+            right: 120px;
+        }
+
+        .right-brace-bl {
+            border-right: 2px solid grey;
+            -webkit-border-bottom-right-radius: 10px;
+            -moz-border-radius-bottomright: 10px;
+            border-bottom-right-radius: 10px;
+            margin-right:-6px;
+            margin-top: 13px;
+        }
+        .right-brace-br {
+            margin-bottom: 10px;
+            border-left: 2px solid grey;
+            -webkit-border-top-left-radius: 10px;
+            -moz-border-radius-topleft: 10px;
+            border-top-left-radius: 10px;
+        }
+        .right-brace-tl {
+            margin-top: 3px;
+            border-right: 2px solid grey;
+            -webkit-border-top-right-radius: 10px;
+            -moz-border-radius-topright: 10px;
+            border-top-right-radius: 10px;
+            margin-right:-6px;
+        }
+
+        .right-brace-tr {
+            margin-bottom: -8px;
+            border-left: 2px solid grey;
+            -webkit-border-bottom-left-radius: 10px;
+            -moz-border-radius-bottomleft: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+    
+        header nav ul {
+            border-bottom: 1px solid;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            border-bottom: none;
+        }
+
+        .col-1  { width: calc( 100% / 9 * 1 );}
+        .col-2  { width: calc( 100% / 9 * 2 );}
+        .col-3  { width: calc( 100% / 9 * 3 );}
+        .col-4  { width: calc( 100% / 9 * 4 );}
+        .col-5  { width: calc( 100% / 9 * 5 );}
+        .col-6  { width: calc( 100% / 9 * 6 );}
+        .col-7  { width: calc( 100% / 9 * 7 );}
+        .col-8  { width: calc( 100% / 9 * 8 );}
+        .col-9  { width: calc( 100% / 9 * 9 );}
+        .col-10 { width: calc( 100% / 9 * 9 );}
+        .col-11 { width: calc( 100% / 9 * 9 );}
+        .col-12 { width: calc( 100% / 9 * 9 );}
+
+        /** offsets **/
+
+        .col-offset-1  { margin-left: calc( 100% / 12 * 1 );}
+        .col-offset-2  { margin-left: calc( 100% / 12 * 2 );}
+        .col-offset-3  { margin-left: calc( 100% / 12 * 3 );}
+        .col-offset-4  { margin-left: calc( 100% / 12 * 4 );}
+        .col-offset-5  { margin-left: calc( 100% / 12 * 5 );}
+        .col-offset-6  { margin-left: calc( 100% / 12 * 6 );}
+        .col-offset-7  { margin-left: calc( 100% / 12 * 7 );}
+        .col-offset-8  { margin-left: calc( 100% / 12 * 8 );}
+        .col-offset-9  { margin-left: calc( 100% / 12 * 9 );}
+        .col-offset-10 { margin-left: calc( 100% / 12 * 10 );}
+        .col-offset-11 { margin-left: calc( 100% / 12 * 11 );}
+        .col-offset-12 { margin-left: calc( 100% / 12 * 12 );}
+
+        .row {
+            margin-left: -.75em;
+            margin-right: -.75em;
+        }
+
+        .cf::after,
+        .clearfix.after,
+        .row::after {
+            content: ' ' ;
+            display: table;
+            clear:both;
+        }	
+
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+    }
+
+@media (min-width: 900px) {
+        
+        h1, h2 {
+    }
+    
+        .col-1  { width: calc( 100% / 12 * 1 );}
+        .col-2  { width: calc( 100% / 12 * 2 );}
+        .col-3  { width: calc( 100% / 12 * 3 );}
+        .col-4  { width: calc( 100% / 12 * 4 );}
+        .col-5  { width: calc( 100% / 12 * 5 );}
+        .col-6  { width: calc( 100% / 12 * 6 );}
+        .col-7  { width: calc( 100% / 12 * 7 );}
+        .col-8  { width: calc( 100% / 12 * 8 );}
+        .col-9  { width: calc( 100% / 12 * 9 );}
+        .col-10 { width: calc( 100% / 12 * 10 );}
+        .col-11 { width: calc( 100% / 12 * 11 );}
+        .col-12 { width: calc( 100% / 12 * 12 );}
+
+
+        /** offsets **/
+
+        .col-offset-1  { margin-left: calc( 100% / 12 * 1 );}
+        .col-offset-2  { margin-left: calc( 100% / 12 * 2 );}
+        .col-offset-3  { margin-left: calc( 100% / 12 * 3 );}
+        .col-offset-4  { margin-left: calc( 100% / 12 * 4 );}
+        .col-offset-5  { margin-left: calc( 100% / 12 * 5 );}
+        .col-offset-6  { margin-left: calc( 100% / 12 * 6 );}
+        .col-offset-7  { margin-left: calc( 100% / 12 * 7 );}
+        .col-offset-8  { margin-left: calc( 100% / 12 * 8 );}
+        .col-offset-9  { margin-left: calc( 100% / 12 * 9 );}
+        .col-offset-10 { margin-left: calc( 100% / 12 * 10 );}
+        .col-offset-11 { margin-left: calc( 100% / 12 * 11 );}
+        .col-offset-12 { margin-left: calc( 100% / 12 * 12 );}
+
+
+
+    }
+
+

@@ -1,0 +1,180 @@
+@media (min-width: 600px) {
+
+.container {
+	height: 100vh;
+  	position: relative;
+}
+
+.vertical-center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-60%);
+}
+
+.title {
+    display: block;
+}
+
+
+.theme {
+	height: auto;
+	margin-bottom: .5em;
+	overflow: hidden;
+	padding-bottom: 1em;
+}
+
+.class {
+	height: 1.2em;
+}
+
+.bracket {
+    display: block;
+    position: absolute;
+    right: 120px;
+    margin-top: .5em;
+}
+
+.right-brace-bl {
+    border-right: 3px solid black;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right:-7px;
+    margin-top: 13px;
+}
+.right-brace-br {
+    margin-bottom: 10px;
+    border-left: 3px solid black;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;
+}
+.right-brace-tl {
+    margin-top: 3px;
+    border-right: 3px solid black;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-right-radius: 10px;
+    margin-right:-7px;
+}
+
+.right-brace-tr {
+    margin-bottom: -8px;
+    border-left: 3px solid black;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+h1 {
+	float: right;
+	font-size: .7em;
+}
+
+h1:hover {
+    letter-spacing: .2em;
+    font-weight: 900;
+    -webkit-transition: letterspacing .1s;
+    transition: letter-spacing .1s;
+
+}
+
+h2 { 
+    color: #030301;
+    padding-right: .5em;
+    padding-top: .2em;
+    display: inline;
+    float: right;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: .5em;
+}
+
+h3 {
+	font-family: 'Merriweather';
+	font-style: italic;
+	text-transform: none;
+	font-size: .6em;
+	letter-spacing: 0em;
+}
+
+h4 {
+	padding-left: .6em;
+}
+
+.illusionism {
+	letter-spacing: .2em;
+}
+
+.subtitle {
+	height: 2em;
+}
+
+.subtitle h3 {
+	display: none;
+}
+
+
+
+span {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30px;
+    display: inline-block;
+}
+
+span.bracket-1 {
+    height: 1em;
+}
+
+span.bracket-2 {
+    height: 1.6em;
+}
+
+span.bracket-3 {
+    height: 1em;
+}
+
+span.bracket-4 {
+    height: 2.2em;
+}
+
+.surface-illusion {
+    margin-top: 2.6em;
+}
+
+.volume-presence {
+    margin-top: 3.7em;
+}
+
+.principles-space {
+    margin-top: 2.6em;
+}
+
+.psychological-realism {
+    margin-top: 4.5em;
+}
+
+.col-1  { width: calc( 100% / 9 * 1 );}
+.col-2  { width: calc( 100% / 9 * 2 );}
+.col-3  { width: calc( 100% / 9 * 3 );}
+.col-4  { width: calc( 100% / 9 * 4 );}
+.col-5  { width: calc( 100% / 9 * 5 );}
+.col-6  { width: calc( 100% / 9 * 6 );}
+.col-7  { width: calc( 100% / 9 * 7 );}
+.col-8  { width: calc( 100% / 9 * 7 );}
+.col-9  { width: calc( 100% / 9 * 9 );}
+.col-10 { width: calc( 100% / 9 * 9 );}
+.col-11 { width: calc( 100% / 9 * 9 );}
+.col-12 { width: calc( 100% / 9 * 9 );}
+
+#nav {
+	margin-top: 85px;
+}
+
+
+
+
+}

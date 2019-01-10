@@ -1,0 +1,242 @@
+* { box-sizing: border-box; } 
+
+body {
+    background-color: #20B2AA;
+}
+
+div {
+    display: block;
+}
+
+#header {
+    position: fixed;
+    right: 0;
+    top: 0%;
+    z-index: 2;
+    width: 100%;
+    margin-top: 0em;  
+    background-color: #030301;  
+}
+
+
+
+.hamburger {
+    position: absolute;
+    top: 8px;
+    right: 5%;
+    display: block;
+}
+
+button {
+    background-color: #030301;
+    border: none;
+}
+
+#nav {
+    position: fixed;
+    z-index: 3;
+    background-color: #030301;
+    display: none;
+    margin-top: 100px;
+    width: 100%;
+    padding: .75em;
+}
+
+/*
+#7C7671 - grey
+#FFFFF3 - white
+#030301 - black
+#FF4365 - pink
+#20B2AA - seagreen
+#98CE00 - limegreen
+
+*/
+
+.nav {
+    padding-top: 3em;
+}
+
+.illusionism-position {
+    position: absolute;
+    padding-top: 2%;
+    padding-left: 3%;
+    top: 4px;
+    bottom: 0px;
+}
+
+.illusionism {
+    font-size: 2em;
+    font-family: Merriweather;
+    font-weight: 1000;
+    color: #FFFFF3;
+    letter-spacing: .15em;
+}
+
+.subtitle {
+    margin-top: 3em;
+    padding-left: 3%;
+}
+
+.subtitle h3 {
+    color: #777;
+}
+
+.sched {
+    position: absolute;
+    margin-top: 35%;
+    margin-bottom: 15%;
+    top: 0;
+    bottom: 0;
+}
+        
+.bracket {
+    display: none;
+}
+      
+.theme {
+    height: 13em;
+    position: relative;
+
+}
+
+.themeName {
+    width: 8em;
+    position: absolute;
+    text-align: left;
+    right: 0;
+
+}
+        
+.group{
+    margin-right: 150px;
+    display: block;
+}
+
+.title {
+    display: none;
+}
+
+.class {
+    height: 2.5em;
+    display: block;
+    float: left;
+    padding-top: 5px;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Lato';
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    -webkit-transition: letter-spacing .2s;
+    transition: letter-spacing .2s;
+    font-weight: 1000;
+    line-height: 1em;
+    color: #fff;
+}
+
+h3 {   
+    font-family: 'Lato';
+    font-size: .8em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    padding-top: 5px;
+    color: #030301;
+}
+
+h4 {
+    font-family: 'Lato';
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    line-height: 2em;
+    color: #FF4365;
+}
+
+.surface-illusion,
+.volume-presence,
+.principles-space,
+.psychological-realism {
+
+    margin-top: 0em;
+}
+
+
+
+/** columns **/
+
+[class*='col-'] {
+    float: left;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 { width: 100%;}
+
+body {
+    margin: 0px;
+
+}
+
+.bracket {
+    display: none;
+}
+
+.class-text {
+	padding: .75em;
+	margin-top: 7.5em;
+}
+
+.class-header {
+	height: 6em;
+}
+
+.class-nav{
+	transform: translateY(-120px); 
+}
+
+p {
+	font-family: 'Lato';
+	font-size: 1.2em;
+	line-height: 1.5em;
+	padding-bottom: 1em;
+}
+
+.class-title {
+    font-family: 'Lato';
+    font-size: 1.6em;
+    letter-spacing: .08em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
